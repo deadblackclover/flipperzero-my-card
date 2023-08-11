@@ -1,0 +1,23 @@
+cargo-features = ["different-binary-name"]
+
+[package]
+name = "flipperzero-my-card"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.64.0"
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
+
+[[bin]]
+name = "flipperzero-my-card"
+filename = "flipperzero-my-card.fap"
+bench = false
+test = false
+
+[dependencies]
+flipperzero = { version = "0.10.0", features = ["alloc"] }
+flipperzero-alloc = { version = "0.10.0" }
+flipperzero-sys = { version = "0.10.0" }
+flipperzero-rt = { version = "0.10.0" }
