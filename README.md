@@ -1,6 +1,8 @@
 # Flipper Zero My Card
 Demo application for Flipper Zero
 
+![Demo](image.png)
+
 # Usage
 
 ## Initial setup
