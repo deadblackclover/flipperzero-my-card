@@ -37,7 +37,7 @@ fn main(_args: *mut u8) -> i32 {
 
     let page_0 = CString::new(*b"DEADBLACKCLOVER").unwrap();
     let page_1 =
-        CString::new(*b"Blockchain Hacker\nDecentralized enthusiast\nFP hobbyist\nCTF").unwrap();
+        CString::new(*b"FP Hacker\nDecentralized enthusiast").unwrap();
     let page_2 = CString::new(*b"github.com/deadblackclover").unwrap();
 
     let mut dialogs = DialogsApp::open();
