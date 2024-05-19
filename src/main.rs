@@ -37,8 +37,8 @@ fn main(_args: *mut u8) -> i32 {
 
     let page_0 = CString::new(*b"DEADBLACKCLOVER").unwrap();
     let page_1 =
-        CString::new(*b"FP Hacker\nDecentralized enthusiast").unwrap();
-    let page_2 = CString::new(*b"github.com/deadblackclover").unwrap();
+        CString::new(*b"FP Hacker\nPL nerd\nDecentralized enthusiast").unwrap();
+    let page_2 = CString::new(*b"deadblackclover.net").unwrap();
 
     let mut dialogs = DialogsApp::open();
     let mut message = DialogMessage::new();
@@ -52,7 +52,7 @@ fn main(_args: *mut u8) -> i32 {
             2 => message.set_text(&page_2, 64, 32, Align::Center, Align::Center),
             _ => (),
         }
-        match dialogs.show(&message) {
+        match dialogs.show_message(&message) {
             DialogMessageButton::Left => {
                 if cur_page > 0 {
                     cur_page -= 1;

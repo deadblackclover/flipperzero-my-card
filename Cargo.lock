@@ -45,9 +45,9 @@ dependencies = [
 
 [[package]]
 name = "flipperzero"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3380d6c3367774a275a79a5e914878828be697bdc099769507cd8757b4b28749"
+checksum = "c4156bf3f403c8a8b9b175a338d2d07f6de4f31be30a3e7a249db7eb6cf22b95"
 dependencies = [
  "bitflags",
  "digest",
@@ -60,9 +60,9 @@ dependencies = [
 
 [[package]]
 name = "flipperzero-alloc"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7530c55b11ee3b6d865b9652190c28664235d592c9ab25f4db32ca00bb045b9"
+checksum = "2611f22f7a1a15661f66f0af906535a471e67b6937c2b06222df9d1c8a596111"
 dependencies = [
  "flipperzero-sys",
 ]
@@ -79,27 +79,27 @@ dependencies = [
 
 [[package]]
 name = "flipperzero-rt"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e86417901345f40afd691706c8f34bde52cbe111d6fd517fb28465bd2e3e681f"
+checksum = "6917e7b727a24872111f865acef3bda3a9101154cdf8fe23709e11ae7778c914"
 dependencies = [
  "flipperzero-sys",
 ]
 
 [[package]]
 name = "flipperzero-sys"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ab88bf1a72204a89320d3ac60a39890a0112443b520cb9bbf560a128c3830acb"
+checksum = "450b0ecaf76cc92745e0ab9b91c0a6a392e6b9af7370f555faf8719ce457e1e0"
 dependencies = [
  "ufmt",
 ]
 
 [[package]]
 name = "flipperzero-test"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8e3cb46bb9aa07d65662c4a3c60717cdedd19a7f4c55e5888ce83c2126786cda"
+checksum = "8bb722672d73e770f99553cef393a1d14b5658cbf4d88259f6a9186008906f68"
 dependencies = [
  "flipperzero-sys",
  "flipperzero-test-macros",
@@ -108,9 +108,9 @@ dependencies = [
 
 [[package]]
 name = "flipperzero-test-macros"
-version = "0.10.0"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3c93395d56046aa6c1bb8f18b38cb3bc56223e9fd5b5f8e9e885d14f422c9869"
+checksum = "ef0ec6c09e1879c1feb139e9138dd1181bcaca444b42570f4d2c0af09415f5eb"
 dependencies = [
  "proc-macro2",
  "quote",
